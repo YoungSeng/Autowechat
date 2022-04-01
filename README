@@ -6,6 +6,7 @@
 
 ## 如何使用
 当前微信版本下，把blcok.png 和 blcok2.png 换成你的qq邮箱截图，或者置顶的消息免打扰的聊天头像，因为目前是识别所有消息红点完成的自动回复，安装My_model.py里面main函数的库，之后直接运行My_model.py
+
 ## 更多细节与实验效果
 基于pyautogui，取消OCR功能，调用中文预训练模型API
 
