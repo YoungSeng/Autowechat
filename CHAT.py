@@ -7,7 +7,7 @@ import requests
 def CHAT_init():
 
     # client_id 为官网获取的AK， client_secret 为官网获取的SK
-    host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=H7k1dCKWGVsGWrAdkp9vX4D7&client_secret=CxGN9MoU6HmcFfGvKVwnHTHffm1YVbos'
+    host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=【yours】&client_secret=【yours】'     # change them to yours
     response = requests.get(host)
     if response:
         print(response.json())
