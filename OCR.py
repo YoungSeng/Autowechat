@@ -4,8 +4,8 @@ import base64
 
 def OCR_init():
 
-    client_id = "gTR2bw9ZjPFiaRL5j66UpZKZ"
-    client_secret = "FV2tXAGnvmdmEoVapTaotK6W7IzKrNrA"
+    client_id = ''      # change it to yours!
+    client_secret = ""      # change it to yours!
     print("client_id:" + client_id)
     print("client_secret:" + client_secret)
 
